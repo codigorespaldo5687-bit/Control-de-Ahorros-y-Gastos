@@ -1,1 +1,4 @@
-Flask==3.0.0
+# gunicorn: servidor WSGI (recomendado para desplegar la app en producción).
+gunicorn
+# Flask: microframework web usado para desarrollar y ejecutar la aplicación.
+Flask
