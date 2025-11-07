@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% block content %}
+<section class="intro">
+    <h2>Bienvenido</h2>
+    <p>Utiliza este sistema para registrar tus gastos y mejorar tus hábitos de ahorro.</p>
+    <div class="menu-botones">
+        <a href="{{ url_for('gastos') }}" class="btn">Ir a Control de Gastos</a>
+        <a href="{{ url_for('ahorro') }}" class="btn">Ir a Hábitos de Ahorro</a>
+        <p>Tips para llevar bien los gastos y ahorros.</p>
+    <div class="menu-botones">
+        <a href="{{ url_for('tips') }}" class="btn">Ir a Tips</a>
+    </div>
+    <h5>Grupo 307 Emplea Frameworks para el Desarrollo de Software</h5>
+   <h6>Leonardo Guillén Guzmán</h6>
+    <h6>Josmar Santiago de la Luz</h6>
+    <h6>Joselin Betzabel Martínez Martínez</h6>
+    <h6>Angel Adrián Morales López</h6>
+    <h6>Melani Joanna Hernández Conde</h6>
+    <h6>Guadalupe Poleth Rojas Correas</h6>
+    <h6>Erick Armando González Solis</h6>
+</section>
+{% endblock %}
